@@ -33,5 +33,5 @@ def find_the_cheese(return_cheese)
 # Using .include?
 #  def find_the_cheese(return_cheese)
 #    cheese_types = ["cheddar", "gouda", "camembert"]
-#    return_cheese.find { |cheese| cheese_types.include?(cheese) }
+#    return_cheese.find_all { |cheese| cheese_types.include?(cheese) }
 #    end
